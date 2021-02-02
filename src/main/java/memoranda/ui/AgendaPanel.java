@@ -50,7 +50,7 @@ public class AgendaPanel extends JPanel {
 	JButton historyForwardB = new JButton();
 	JButton export = new JButton();
 	JEditorPane viewer = new JEditorPane("text/html", "");
-	String[] priorities = {"Muy Alta","Alta","Media","Baja","Muy Baja"};
+	String[] priorities = {"very high","high","medium","short","very short"};
 	JScrollPane scrollPane = new JScrollPane();
 
 	DailyItemsPanel parentPanel = null;
